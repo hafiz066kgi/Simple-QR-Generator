@@ -1,0 +1,92 @@
+/* Modern, clean, soft card style */
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: #f2f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+}
+
+#qr-container {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#download-btn {
+    background-color: #10b981;
+    margin-top: 20px;
+}
+
+#download-btn:hover {
+    background-color: #059669;
+}
+
+/* Remove cats and animations from previous cartoon style */
+body::before, 
+body::after {
+    display: none;
+}
