@@ -10,10 +10,6 @@ A simple, modern web application to convert URLs into QR codes, with instant pre
 - **Responsive Design**: Clean, card-based interface for desktop and mobile.
 - **Accessible UI**: User-friendly, modern and accessible input, buttons, and feedback.
 
-## ISO Documentation Reference
-
-This repository structure, user interface, and documentation follow best practices as per ISO 9001:2015 (Quality Management Systems) for software development and user documentation, ensuring traceability, maintainability, and continual improvement.
-
 ## File Structure
 
 - `index.html` &mdash; Main HTML file, includes layout and form for URL input.
