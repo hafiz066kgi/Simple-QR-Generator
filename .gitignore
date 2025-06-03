@@ -1,0 +1,24 @@
+</details>
+
+---
+
+### 2. `.gitignore`
+[Download .gitignore](sandbox:/mnt/data/.gitignore)
+
+<details>
+<summary>View .gitignore content</summary>
+
+```gitignore
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore node modules (if you use npm for local development)
+node_modules/
+
+# Ignore build/dist folders
+dist/
+build/
